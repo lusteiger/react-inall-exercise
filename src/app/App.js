@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import "./app.less";
 import { Route, BrowserRouter, Link } from "react-router-dom";
-import Home from "./Home";
-import Calculator from "./Calculator";
-import Timer from "./Timer";
+import Home from "./home/Home";
+import Calculator from "./calculator/Calculator";
+import Timer from "./timer/Timer";
 
 class App extends Component {
   render() {

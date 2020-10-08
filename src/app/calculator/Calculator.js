@@ -76,7 +76,7 @@ class Calculator extends Component {
 
   render() {
     return (
-      <div>
+      <div className="main">
         <h1>在线计算器</h1>
         <div>
           <div id="calculator" className="calculator">

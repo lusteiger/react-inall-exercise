@@ -1,0 +1,51 @@
+.controller {
+          display: flex;
+          
+          text-align: center;
+}
+.controller .settings{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          width: 50%;
+          margin: 50px;
+          text-align: center;
+}
+.controller .display{
+          width: 50%;
+}
+label{
+          font-size: 20px;
+          margin-right: 50px;
+}
+
+p {
+          border: 2px solid black;
+          vertical-align: top;
+          height: 200px;
+          font-size: 50px;
+          margin-right: 10px;
+          line-height: 200px;
+}
+
+input {
+          width: 250px;
+          height: 50px;
+          font-size: 20px;
+}
+
+button {
+          text-align: center;
+}
+
+a{
+          text-align: left;
+          margin-left: 50px;
+}
+
+.click {
+          width: 400px;
+          background-color:#00AEED ;
+          
+}
